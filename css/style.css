@@ -116,9 +116,9 @@ main {
   margin-top: 130px;
   background-color: #fff8f3;
   border-radius: 10px;
-  padding: 131px 156px;
+  padding: 100px 156px;
 }
-.about-title {
+.about-content-title {
   font-size: 35px;
   text-align: center;
   margin-bottom: 30px;
@@ -157,8 +157,9 @@ main {
 .skill {
   padding: 30px 30px;
   background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   margin: 0 10px;
+  border-radius: 5px;
 }
 .skill-title {
   color: #474747;
@@ -169,4 +170,107 @@ main {
 .skill-description {
   color: #757575;
   font-size: 14px;
+}
+
+/*! Resume section style  */
+.about-title {
+  margin-bottom: 110px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+}
+.resume-content {
+  display: flex;
+}
+.resume-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.resume-item {
+  margin: 20px 10px;
+}
+.res-title {
+  font-size: 22px;
+  color: #474747;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.res-sub-title {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.res-description {
+  font-size: 14px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.download-cv-btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*! Footer section style */
+footer {
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+.footer-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+}
+.footer-content-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.footer-content-description {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.socil-icon {
+}
+.socil-icon ul {
+}
+.socil-icon ul li {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.socil-icon ul li i {
+  color: #fd6e0a;
+}
+
+.footer-form {
+  margin-left: 20px;
+}
+.form-title {
+}
+form input,
+textarea {
+  width: 100%;
+  padding: 15px 0 15px 15px;
+  margin: 8px 0;
+  border: none;
+}
+.form-submit-btn {
+  padding: 14px 30px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-weight: 500;
+  border: solid 1px #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
 }
