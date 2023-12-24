@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+li {
+  list-style: none;
+}
+.primary-color {
+  color: #fd6e0a;
+}
+.btn {
+  padding: 14px 35px 14px 36px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*todo // Header and navigation styles */
+header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, center left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 100px 55px 150px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/**! Banner Styles**/
+.banner {
+  margin: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 5;
+  color: #474747;
+}
+.title {
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 15px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 30px;
+  width: 450px;
+}
+.banner img {
+  margin-right: -119px;
+  background-size: cover;
+}
+.download-btn {
+  padding: 14px 30px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+i.fa-solid.fa-download,
+.fa-phone {
+  margin-right: 7px;
+}
+.contact-btn {
+  padding: 14px 30px;
+  background-color: transparent;
+  color: #fd6e0a;
+  font-weight: 700;
+  border: solid 1px #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+/** Main Section width */
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+/*! About Section Style  */
+
+.about {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 156px;
+}
+.about-title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-section-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  text-align: center;
+  color: #757575;
+  font-size: 20px;
+}
+.info-description {
+  text-align: center;
+  font-weight: 700;
+  color: #474747;
+  font-size: 18px;
+}
+
+/*! what i do section  */
+.what-i-do {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  padding: 30px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 10px;
+}
+.skill-title {
+  color: #474747;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.skill-description {
+  color: #757575;
+  font-size: 14px;
+}
